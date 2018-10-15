@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		7EB87FB821748FB6005A7354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB87FB721748FB6005A7354 /* AppDelegate.swift */; };
-		7EB87FBA21748FB6005A7354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB87FB921748FB6005A7354 /* ViewController.swift */; };
 		7EB87FBD21748FB6005A7354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB87FBB21748FB6005A7354 /* Main.storyboard */; };
 		7EB87FBF21748FB7005A7354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB87FBE21748FB7005A7354 /* Assets.xcassets */; };
 		7EB87FC221748FB7005A7354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB87FC021748FB7005A7354 /* LaunchScreen.storyboard */; };
+		7EB87FD221749411005A7354 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB87FD121749411005A7354 /* ChatVC.swift */; };
+		7EB87FD421749439005A7354 /* ProfileChanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB87FD321749439005A7354 /* ProfileChanelVC.swift */; };
+		7EB87FD721749AA6005A7354 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB87FD621749AA6005A7354 /* SWRevealViewController.m */; };
+		E4A90EFA29125FF1A7E855BD /* Pods_TalkMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FBAA3CFD44F0D127BD4290 /* Pods_TalkMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7084FDC21B3ECE67ADC95EB7 /* Pods-TalkMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkMe/Pods-TalkMe.release.xcconfig"; sourceTree = "<group>"; };
 		7EB87FB421748FB6005A7354 /* TalkMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB87FB721748FB6005A7354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EB87FB921748FB6005A7354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EB87FBC21748FB6005A7354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EB87FBE21748FB7005A7354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EB87FC121748FB7005A7354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EB87FC321748FB7005A7354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB87FD121749411005A7354 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		7EB87FD321749439005A7354 /* ProfileChanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileChanelVC.swift; sourceTree = "<group>"; };
+		7EB87FD521749AA6005A7354 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		7EB87FD621749AA6005A7354 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7EB87FD821749AC3005A7354 /* TalkMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TalkMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		85FBAA3CFD44F0D127BD4290 /* Pods_TalkMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81EF20784913EC03750D7B9 /* Pods-TalkMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkMe/Pods-TalkMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A90EFA29125FF1A7E855BD /* Pods_TalkMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				7EB87FB621748FB6005A7354 /* TalkMe */,
 				7EB87FB521748FB6005A7354 /* Products */,
+				C8F97108804116E56B144845 /* Pods */,
+				BBB0F8B2C033E7B162BB93B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,67 @@
 		7EB87FB621748FB6005A7354 /* TalkMe */ = {
 			isa = PBXGroup;
 			children = (
+				7EB87FCC21749108005A7354 /* SupportFiles */,
+				7EB87FCB21749100005A7354 /* Model */,
+				7EB87FCA217490FA005A7354 /* View */,
+				7EB87FC9217490F1005A7354 /* Controler */,
 				7EB87FB721748FB6005A7354 /* AppDelegate.swift */,
-				7EB87FB921748FB6005A7354 /* ViewController.swift */,
 				7EB87FBB21748FB6005A7354 /* Main.storyboard */,
 				7EB87FBE21748FB7005A7354 /* Assets.xcassets */,
 				7EB87FC021748FB7005A7354 /* LaunchScreen.storyboard */,
 				7EB87FC321748FB7005A7354 /* Info.plist */,
 			);
 			path = TalkMe;
+			sourceTree = "<group>";
+		};
+		7EB87FC9217490F1005A7354 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				7EB87FD121749411005A7354 /* ChatVC.swift */,
+				7EB87FD321749439005A7354 /* ProfileChanelVC.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		7EB87FCA217490FA005A7354 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EB87FCB21749100005A7354 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EB87FCC21749108005A7354 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7EB87FD521749AA6005A7354 /* SWRevealViewController.h */,
+				7EB87FD621749AA6005A7354 /* SWRevealViewController.m */,
+				7EB87FD821749AC3005A7354 /* TalkMe-Bridging-Header.h */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		BBB0F8B2C033E7B162BB93B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85FBAA3CFD44F0D127BD4290 /* Pods_TalkMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8F97108804116E56B144845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F81EF20784913EC03750D7B9 /* Pods-TalkMe.debug.xcconfig */,
+				7084FDC21B3ECE67ADC95EB7 /* Pods-TalkMe.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EB87FC621748FB7005A7354 /* Build configuration list for PBXNativeTarget "TalkMe" */;
 			buildPhases = (
+				D436CE600C257059C6140EC9 /* [CP] Check Pods Manifest.lock */,
 				7EB87FB021748FB6005A7354 /* Sources */,
 				7EB87FB121748FB6005A7354 /* Frameworks */,
 				7EB87FB221748FB6005A7354 /* Resources */,
+				59AB777B311AAAAA394BCCBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +164,7 @@
 				TargetAttributes = {
 					7EB87FB321748FB6005A7354 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -130,13 +199,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59AB777B311AAAAA394BCCBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TalkMe/Pods-TalkMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkMe/Pods-TalkMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D436CE600C257059C6140EC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EB87FB021748FB6005A7354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EB87FBA21748FB6005A7354 /* ViewController.swift in Sources */,
+				7EB87FD221749411005A7354 /* ChatVC.swift in Sources */,
+				7EB87FD421749439005A7354 /* ProfileChanelVC.swift in Sources */,
 				7EB87FB821748FB6005A7354 /* AppDelegate.swift in Sources */,
+				7EB87FD721749AA6005A7354 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +404,22 @@
 		};
 		7EB87FC721748FB7005A7354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81EF20784913EC03750D7B9 /* Pods-TalkMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQPBX26AMP;
 				INFOPLIST_FILE = TalkMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fareselsokary.TalkMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TalkMe/SupportFiles/TalkMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +427,21 @@
 		};
 		7EB87FC821748FB7005A7354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7084FDC21B3ECE67ADC95EB7 /* Pods-TalkMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SQPBX26AMP;
 				INFOPLIST_FILE = TalkMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fareselsokary.TalkMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TalkMe/SupportFiles/TalkMe-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

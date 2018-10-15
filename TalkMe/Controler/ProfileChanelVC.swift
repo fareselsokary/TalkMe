@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProfileChanelVC.swift
 //  TalkMe
 //
 //  Created by fares elsokary on 10/15/18.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProfileChanelVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        self.revealViewController()?.rearViewRevealWidth = self.view.frame.width - 60
     }
+    
 
-
+    
 }
-
